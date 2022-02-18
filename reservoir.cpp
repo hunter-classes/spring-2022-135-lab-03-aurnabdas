@@ -108,7 +108,6 @@ std::ifstream fin("Current_Reservoir_Levels.tsv");
         if (date == thedate)
         {
             fin.close();
-            std::cout << eastEl << " " << westEl << std::endl;
             if (eastEl < westEl)
             {
                 return "West";

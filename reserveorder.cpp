@@ -55,7 +55,7 @@ void reverse_order(std::string date1, std::string date2)
         }
     }
     // this loop prints out the array in desending order 
-    for (int i = counter; i >= 0; i--)
+    for (int i = counter-1 ; i >= 0; i--)
         {
         std::cout << elevation[i] << std::endl;
         }
